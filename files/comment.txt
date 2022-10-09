@@ -1,0 +1,142 @@
+             <!-- Linkes -->
+                        <div class="linkes d-flex justify-content-between p-2">
+                            <div>view pervious comments</div>
+                            <div>Oldest </div>
+                            <!-- <i></i> -->
+                        </div>
+                        <!-- comments -->
+                            
+                        <div class="comments d-flex flex-column py-1">
+                            <!-- item comment -->
+                            <div class="item d-flex py-2">
+                                <div class="image rounded-circle me-2" style="width:40px; height: 40px;">
+                                    <img src="images/fb-1.jpg" width="100%" alt="">
+                                </div>
+                                <div class="details">
+                                    <!-- comment content -->
+                                    <div class="content bg-secondary p-1 bg-secondary bg-opacity-25 rounded-4 p-2 size m-0">
+                                        <div class="name text-body" style="font-size: 14px; font-weight: bold;">Ahmad Tamer</div>
+                                        <div class="comment" style="font-size: 14px;">
+                                            Hello , What Your Name ? My Name's Mohammad Atawneh. 
+                                        </div>
+                                    </div>
+                                    <!-- react to comment -->
+                                    <div class="linkes d-flex mx-2 pt-1">
+                                        <small class="like me-2">Like</small>
+                                        <small class="Reply me-2">Reply</small>
+                                        <small class="time">10h</small>
+                                    </div>
+                                    <!-- button reply -->
+                                    <div class="show-reply mx-2">
+                                    <i class="fa-solid fa-reply"></i>
+                                        <small>Replies</small>
+                                    </div>
+                                </div> 
+                            </div>                               
+                            <!-- item comment -->
+                            <div class="item d-flex py-2">
+                                <div class="image rounded-circle me-2" style="width:40px; height: 40px;">
+                                    <img src="images/fb-1.jpg" width="100%" alt="">
+                                </div>
+                                <div class="details">
+                                    <!-- comment content -->
+                                    <div class="content bg-secondary p-1 bg-secondary bg-opacity-25 rounded-4 p-2 size m-0">
+                                        <div class="name text-body" style="font-size: 14px; font-weight: bold;">Ahmad Tamer</div>
+                                        <div class="comment" style="font-size: 14px;">
+                                            Hello , What Your Name ? My Name's Mohammad Atawneh. 
+                                        </div>
+                                    </div>
+                                    <!-- react to comment -->
+                                    <div class="linkes d-flex mx-2 pt-1">
+                                        <small class="like me-2">Like</small>
+                                        <small class="Reply me-2">Reply</small>
+                                        <small class="time">10h</small>
+                                    </div>
+                                    <!-- open reply -->
+                                    <div class="show-reply mx-2">
+                                        <div class="item d-flex py-2">
+                                            <div class="image rounded-circle me-2" style="width:25px; height: 25px;">
+                                                <img src="images/fb-1.jpg" width="100%" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <!-- comment content -->
+                                                <div class="content bg-secondary p-1 bg-secondary bg-opacity-25 rounded-4 p-2 size m-0">
+                                                    <div class="name text-body" style="font-size: 14px; font-weight: bold;">Ahmad Tamer</div>
+                                                    <div class="comment" style="font-size: 14px;">
+                                                        Hello , What Your Name ? My Name's Mohammad Atawneh. 
+                                                    </div>
+                                                </div>
+                                                <!-- react to comment -->
+                                                <div class="linkes d-flex mx-2 pt-1">
+                                                    <small class="like me-2">Like</small>
+                                                    <small class="Reply me-2">Reply</small>
+                                                    <small class="time">10h</small>
+                                                </div>
+                                            </div> 
+                                        </div>  
+                                         <!-- to add comment -->
+                            <div class="item d-flex align-items-center py-2">
+                                <div class="image rounded-circle me-2" style="width:25px; height: 25px;">
+                                    <img src="images/fb-1.jpg" width="100%" alt="">
+                                </div>
+                                <div class="details w-100">
+                                    
+                                    <div class=" content d-flex justify-content-between align-items-center  p-1 bg-secondary bg-opacity-25 rounded-4 p-2 size m-0">
+                                        <form action="#">
+                                            <!-- <input type="text" value=""> -->
+                                            <small>Replay to Ahmad Tamer</small>
+                                        </form>
+                                        <div class="icons text-muted d-flex justify-content-between align-items-center">
+                                            <a href="#" class="btn p-0 px-1">
+                                                <i class="fa-regular fa-face-smile-beam"></i>
+                                            </a>
+                                            <a href="#"  class="btn p-0 px-1">
+                                                <i class="fa-solid fa-file-image"></i>
+                                            </a>
+                                            <a href="#" class="btn  p-0 px-1">
+                                                <i class="fa-solid fa-camera"></i>
+                                            </a>
+                                            <!-- <a href="#" class="btn"></a> -->
+                                        </div>
+                                    </div>
+                                </div> 
+
+                            </div>
+                            <!--end add comment  -->            
+                                </div>
+                                <!-- end button open replies -->
+                                </div> 
+                                <!-- end details to comment -->
+                            </div> 
+                            <!-- end  item to comment -->
+                            <!-- to add comment -->
+                            <div class="item d-flex py-2">
+                                <div class="image rounded-circle me-2" style="width:40px; height: 40px;">
+                                    <img src="images/fb-1.jpg" width="100%" alt="">
+                                </div>
+                                <div class="details w-100">
+                                    
+                                    <div class=" content d-flex justify-content-between align-items-center  p-1 bg-secondary bg-opacity-25 rounded-4 p-2 size m-0">
+                                        <form action="#">
+                                            <!-- <input type="text" value=""> -->
+                                            <div>Write a comment ...</div>
+                                        </form>
+                                        <div class="icons text-muted d-flex justify-content-between align-items-center">
+                                            <a href="#" class="btn p-0 px-1">
+                                                <i class="fa-regular fa-face-smile-beam"></i>
+                                            </a>
+                                            <a href="#"  class="btn p-0 px-1">
+                                                <i class="fa-solid fa-file-image"></i>
+                                            </a>
+                                            <a href="#" class="btn  p-0 px-1">
+                                                <i class="fa-solid fa-camera"></i>
+                                            </a>
+                                            <!-- <a href="#" class="btn"></a> -->
+                                        </div>
+                                    </div>
+                                </div> 
+
+                            </div>
+                            <!--end add comment  -->                     
+                        </div>         
+                        <!-- end comments -->

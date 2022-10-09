@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #ccc ;
+    color:#333;
+    scroll-behavior: smooth;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+    /* height:60px; */
+    background:whi
+}
+header .icons .icon {
+    color:black
+}
+header .icons a {
+    
+    outline:none;
+    border:0;
+}
+header .features .icon {
+    color:black
+}
+header .features a {
+    margin-right: 2px;
+    outline:none;
+    border:0;
+}
+header .features i {
+    padding:10px;
+    border-radius: 50%;
+    background-color: #cfcfcf;
+    color:black
+
+}
+header {
+    height:60px;
+}
+header .center a{
+    height:60px;
+    line-height: 60px;
+}
+
+.search input{
+    position:relative;
+    padding-right:30x;
+
+}
+.search .icon-sea{
+    content:"";
+    position:absolute;
+    top:8px;
+    transform: translate(50%, 50%);
+
+}
+main .features a {
+    display: flex;
+    align-items: center; 
+    margin-left: 0;
+}
+
+main .features {
+    /* margin: 10px; */
+
+}
+
+main .features a div{
+  margin-left: 10px; font-size: 19px; font-weight: 400;    
+}
+main .features a :is(i,  img){
+  width:40px;   
+  /* height: 30px; */
+  font-size: 20px;
+}main  {
+    padding-top: 16px;
+    display:grid;
+    grid-template-columns: 25% 40% 25%;
+    justify-content: space-around;
+    
+}
+main .part-two .body a {
+    text-decoration:none ;
+}
+main .part-two .body IMG {
+    max-width: calc(100% + 32px) !important;
+    margin-left:-16px;
+}
+/* main .part-two {
+    margin: auto;
+} */
+header {
+    max-width:100%;
+}
+
+.part-two .create-post {
+    cursor: pointer;
+}
+main .part-one .qlinks a {
+    margin-left: -16px;
+}
+
+main .part-one .shortcuts a {
+    margin-left: -10px;
+}
+main .part-three .sponsored a img {
+    width: 150px !important; 
+    margin-right:5px;
+}
+main .part-three .sponsored a div  {
+text-align: start;
+font-size:14px;
+}
+main .part-one {
+    /* overflow: auto; */
+}
+main .part-two .stories .card {
+    max-width: 120px;
+    min-width: 120px;
+    height: 200px;
+}
+main .part-two .stories .image {
+    height:100%;
+}
+main .part-two .stories .image img{
+    background-size: contain;
+}
+main .part-two .stories .create-story .image {
+    position:relative;
+}
+main .part-two .stories  .create-story .image::before {
+    position:absolute;
+    content: "+";
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    background:blue;
+    color:white;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 1;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    bottom:-40px;
+    /* left:translate(50%, 50%); */
+    left:60px;
+    transform:translate(-50%, -50%);
+}
+main .part-two .stories .card {
+    position:relative;
+}
+main .part-two .stories .card {
+    position:relative;
+}
+main .part-two .stories .card .img-user {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:40px;
+    height:40px;
+}
+main .part-two .stories .card .username {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size:16px;
+}
+main .part-two .stories {
+    overflow: hidden;
+    scrollbar-width:0;
+}
+main .part-three  {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    left:0;
+    overflow: auto;
+}
+.main{
+    position:relative
+}
+main .part-one {
+    position: -webkit-sticky;
+    position: sticky;
+    left:0;
+    
+}
+.top {
+    position: -webkit-sticky;
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    /* transition: 5ms; */
+    z-index:8;
+}
+
+header {  
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    
+    z-index:100;
+
+}
+main .stories  {
+    position:relative;
+
+}
+main :is(.stories,.reels) .btn-right {
+    position:absolute;
+  
+    font-size:35px;
+    z-index:4;
+    top:50%;
+    right:-10px;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    
+}
+main .reels  {
+    position:relative;
+    overflow: hidden;   
+}
+main .part-two .reels .card .info-reel {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size:16px;
+
+}
+main .part-two .reels .card {
+    min-width:150px;
+    height:260px;
+   
+}
+main .part-two .reels .image {
+    max-width:100%;
+    min-height:100%;
+   
+}
